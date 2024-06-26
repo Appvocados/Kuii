@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="logo.png" src="logo.png"> <!-- Icono del sitio -->
-
+    <link rel="icon" type="image/png" href="logo.png">
     <meta property="og:title" content="Carnitas Kuii">
-<meta property="og:description" content="Carnitas por kilo, tacos y tortas">
-<meta property="og:image" content="logo.png"> <!-- Imagen para compartir en redes sociales -->
-<meta property="og:url" content="https://carnitaskuii/"> <!-- URL del sitio para compartir en redes sociales -->
-<meta property="og:type" content="website"> <!-- Tipo de contenido para compartir en redes sociales -->
-
-    
-
+    <meta property="og:description" content="Carnitas por kilo, tacos y tortas">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url" content="https://carnitaskuii/">
+    <meta property="og:type" content="website">
 
     <title>Carnitas Kuii</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -36,10 +32,17 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
         }
 
         .logo img {
-            width: 70px; /* Tamaño ajustable según tu preferencia */
+            width: 50px; /* Reducir el tamaño del logo para dispositivos móviles */
+            height: auto; /* Mantener la proporción */
+        }
+
+        h1 {
+            margin: 0; /* Eliminar el margen superior del título */
+            font-size: 1.5rem; /* Tamaño del título ajustado */
         }
 
         nav ul {
