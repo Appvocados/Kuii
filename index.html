@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnitas Kuii</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf3e0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: #5d4037;
+        }
+
+        header {
+            background-color: #8d6e63;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img {
+            width: 70px; /* Tamaño ajustable según tu preferencia */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+            flex: 1;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .producto {
+            margin: 1rem;
+            text-align: center;
+            width: 200px; /* Ancho fijo para cada producto */
+        }
+
+        .producto img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #8d6e63;
+            border-radius: 5px;
+            margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+        }
+
+        .producto .icono {
+            font-size: 1.5rem;
+            color: #8d6e63;
+        }
+
+        .whatsapp {
+            display: inline-block;
+            background-color: #4caf50;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 2rem;
+        }
+
+        footer {
+            background-color: #8d6e63;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Estilo adicional para justificar el texto */
+        #nosotros p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo Carnitas Kuii">
+        </div>
+        <h1>Carnitas Kuii</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Mandar un mensaje a mi WhatsApp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="galeria">
+            <div class="producto">
+                <img src="img/kilos.png" alt="Carnitas por kilo">
+                <p><i class="fas fa-drumstick-bite icono"></i> Kilos de carnitas</p>
+            </div>
+            <div class="producto">
+                <img src="img/tacos.png" alt="Tacos de carnitas">
+                <p><i class="fas fa-utensils icono"></i> Tacos de carnitas</p>
+            </div>
+            <div class="producto">
+                <img src="img/tortas.png" alt="Tortas de carnitas">
+                <p><i class="fas fa-hamburger icono"></i> Tortas de carnitas</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Carnitas Kuii nos enorgullecemos de ofrecer las mejores carnitas estilo Santa Clara del Cobre, Michoacán. Nuestras carnitas se preparan con los más altos estándares de calidad, cocinadas lentamente con leña y en cazo de cobre para mantener su sabor auténtico y tradicional.</p>
+        <p>Nuestro equipo está formado por expertos en la preparación de carnitas, comprometidos con brindar una experiencia culinaria única a nuestros clientes. Además de nuestros productos estrella como kilos de carnitas, tacos y tortas, también ofrecemos opciones personalizadas para eventos y reuniones especiales.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Mandar un mensaje a mi WhatsApp</h2>
+        <a class="whatsapp" href="https://wa.me/4341696630" target="_blank">Enviar mensaje por WhatsApp</a>
+        <p>Domicilio: Calle Virrey de Mendoza Número 343 A, Centro, Morelia, Mich.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Carnitas Kuii</p>
+    </footer>
+</body>
+</html>
